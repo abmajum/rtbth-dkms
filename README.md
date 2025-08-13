@@ -27,3 +27,10 @@ sudo rmmod rtbth
 ### Installation: ###
 
 [Ubuntu and derivatives](https://launchpad.net/~blaze/+archive/ubuntu/rtbth-dkms)
+
+### Installation Manjaro ###
+```
+makepkg -si
+sudo modprobe rtbth
+```
+add `rtbth` to /etc/modules-load.d/modules.conf
